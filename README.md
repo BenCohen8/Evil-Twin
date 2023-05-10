@@ -4,6 +4,8 @@ The way that Evil TWIN works is that the attacker sets up a fake wifi network th
 After the user connects to our fake network,
 we will listen to the traffic on his network and thus it is possible to extract password information and personal details...</br>
 
+## How does the attack work?
+
 
 The way we create the attack is in the python language in the Scapy library and using the 802.11 standard which is actually standards for wireless communication in local networks.
 The attack in Evil TWIN is created so that the AP shows the SSID (network name) by sending Becoin.</br>
