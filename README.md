@@ -22,7 +22,9 @@ If the user was connected to the AP with a certain SSID but he collects a higher
 
 ## defense
 1 take from the user the name of interface he is using.  </br>
-2 Check if there are two APs with the same MAK and SSID if so (EVIL TWIN). </br>
-3
+2 See if there are two AP with the same MAK and SSID if there is one (EVIL TWIN ). </br>
+3 If  the preceding paragraph happens, we would like to check if the evil twin AP sends us a lot of Deauthentication packets.</br>
+4 If  the preceding paragraph happens, we want to remove the applicant from the user .</br>
+5 Send a lot of Deauthentication packets to the attacker andthus protecting the user.</br>
 
 
