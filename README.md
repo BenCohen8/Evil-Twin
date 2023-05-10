@@ -13,10 +13,10 @@ Evil TWIN works is that the attacker connects to a network that is similar to th
 
 
 We create the attack in the Python language by Scapy library and using the 802.11 standard that regulates communication in local networks.
-The attack on Evil TWIN is created so that AP shows the SSID (name network) in such a way that it sends Becoin. The user automatically attempts to connect to the ID that it had previously connected to.
-If for the network the user has defined to connect previously using the password, if you have changed the ID for that network do not need to connect to the password at all.
-The user does not connect to the same AP. Since it does not work, the AP will not succeed in passing the process of validation before the user since he does not have the password.
-If the user was connected to the AP with a certain SSID but collected a higher capacity than another IP with the identical SSID, the user tries to connect to the new AP.
+The attack on Evil TWIN is created so that AP shows the SSID (name network) in such a way that it sends Becoin. The user automatically attempts to connect to the ID that it had previously connected to.</br>
+If for the network the user has defined to connect previously using the password, if you have changed the ID for that network do not need to connect to the password at all.</br>
+The user does not connect to the same AP. Since it does not work, the AP will not succeed in passing the process of validation before the user since he does not have the password.</br>
+If the user was connected to the AP with a certain SSID but collected a higher capacity than another IP with the identical SSID, the user tries to connect to the new AP.</br>
 
 
 ## attack
