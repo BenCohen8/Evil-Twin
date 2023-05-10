@@ -2,8 +2,7 @@
 ## What is EVIL TWIN?
 The form that Evil TWIN works is that the attacker connects to a network that is similar to the network that we know to make the user connect to it instead of the network
 After the user connects to our network we hear it and can extract from it information passwords and personal details... </br>
-![Test Image 1](C:\Users\Ohad\Downloads\images.jpg)
-
+![images](https://github.com/BenCohen8/Evil-Twin/assets/74296478/170a9481-8c80-4d38-b9f5-210bc6e1e2de)
 ## How does the attack work?
 
 
