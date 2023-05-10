@@ -1,14 +1,28 @@
 ## Evil-Twin
 ## What is EVIL TWIN?
-The way that Evil TWIN works is that the attacker sets up a fake wifi network that is similar to the network we know in order to make the user connect to it instead of a reliable network.</br>
-After the user connects to our fake network,
-we will listen to the traffic on his network and thus it is possible to extract password information and personal details...</br>
+The form that Evil TWIN works is that the attacker connects to a network that is similar to the network that we know to make the user connect to it instead of the network
+After the user connects to our network we hear it and can extract from it information passwords and personal details... </br>
 
 ## How does the attack work?
 
 
-The way we create the attack is in the python language in the Scapy library and using the 802.11 standard which is actually standards for wireless communication in local networks.
-The attack in Evil TWIN is created so that the AP shows the SSID (network name) by sending Becoin.</br>
-The user automatically tries to connect to an AP with an SSID that he was previously connected to.</br>
-If for a certain network the user was previously configured to connect using a password, if we change the AP for that network, no password is required at all.</br>
-The user does not connect to the same AP, since there is a two-sided identification process, it will not work, the AP will not be able to go through an authentication process with the user, since he does not have the password. If the user was connected to an AP with a certain SSID but he receives a higher power transmission from another IP with the same SSID, the user tries to connect to the new AP.
+The way in which we create the attack is in the language of Python in the library and the use of the 802.11 standard that actually regulates the communication in local networks. </br>
+The attack on Evil TWIN is created so that AP shows the SSID (name network) in such a way that it sends Becoin. The user automatically attempts to connect to the ID that it had previously connected to. </br>
+If for the network the user has defined to connect previously using the password if you have changed the ID for that network do not need to connect to the password at all.</br>
+The user does not connect to the same AP, since it does not work the AP will not succeed in passing the process of validation before the user since he does not have the password. </br>
+If the user was connected to the AP with a certain SSID but he collects a higher capacity than another IP with the same SSID, the user tries to connect to the new AP. </br>
+
+
+## attack
+1  Scan WLAN in the environment and view the various networks discovered. </br>
+2 Make a fake AP Wifi network. </br>
+3 Connecting users to the fake network. </br>
+4 Creating a fake captive portal .</br>
+5 Theft of information .</br>
+
+## defense
+1 take from the user the name of interface he is using.  </br>
+2 Check if there are two APs with the same MAK and SSID if so (EVIL TWIN). </br>
+3
+
+
